@@ -1,0 +1,1 @@
+<view><view>更新</view><view class=""><uni-easyinput wx:if="{{b}}" u-i="791208b8-0" bind:__l="__l" bindupdateModelValue="{{a}}" u-p="{{b}}"/><uni-easyinput wx:if="{{d}}" u-i="791208b8-1" bind:__l="__l" bindupdateModelValue="{{c}}" u-p="{{d}}"/><button type="primary" bindtap="{{e}}">更新</button></view></view>
