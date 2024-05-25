@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@dcloudio/uni-ui": "^1.5.5",
+    "uqrcodejs": "^4.0.7"
+  }
+}

@@ -1,0 +1,155 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "你哈",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/myorder/index",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+				// "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/myuser/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+				// "navigationStyle": "custom"
+			}
+		},
+
+		{
+			"path": "pages/mysearch/index",
+			"style": {
+				// "navigationStyle": "custom"
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/hospital/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/service/index",
+			"style": {
+				"navigationBarTitleText": "填写服务订单"
+			}
+		},
+		{
+			"path": "pages/clients/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+
+
+
+		, {
+			"path": "uni_modules/uni-pay/pages/success/success",
+			"style": {
+				"backgroundColor": "#F8F8F8",
+				"navigationBarTitleText": "支付成功"
+			}
+		}, {
+			"path": "uni_modules/uni-pay/pages/ad-interactive-webview/ad-interactive-webview",
+			"style": {
+				"backgroundColor": "#F8F8F8",
+				"navigationBarTitleText": "ad"
+			}
+		}, {
+			"path": "uni_modules/uni-pay/pages/pay-desk/pay-desk",
+			"style": {
+				"backgroundColor": "#F8F8F8",
+				"navigationBarTitleText": "收银台"
+			}
+		},
+		
+		{
+			"path" : "pages/myorder/order",
+			"style" : 
+			{
+				"navigationBarTitleText" : "订单详情"
+			}
+		},
+		{
+			"path" : "pages/mysearch/update/update",
+			"style" : 
+			{
+				"navigationBarTitleText" : "更新数据"
+			}
+		}
+	,{
+    "path": "pages/opendb-contacts/add",
+    "style": {
+        "navigationBarTitleText": "新增"
+    }
+}
+,{
+    "path": "pages/opendb-contacts/edit",
+    "style": {
+        "navigationBarTitleText": "编辑"
+    }
+}
+,{
+    "path": "pages/opendb-contacts/list",
+    "style": {
+        "navigationBarTitleText": "列表"
+    }
+}
+,{
+    "path": "pages/opendb-contacts/detail",
+    "style": {
+        "navigationBarTitleText": "详情"
+    }
+}
+],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/images/tab_index.png",
+			"selectedIconPath": "static/images/tab_index_seled.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/myorder/index",
+			"iconPath": "static/images/tab_pub.png",
+			"selectedIconPath": "static/images/tab_pub_seled.png",
+			"text": "订单"
+		}, {
+			"pagePath": "pages/myuser/index",
+			"iconPath": "static/images/tab_user.png",
+			"selectedIconPath": "static/images/tab_user_seled.png",
+			"text": "我的"
+		}]
+	},
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#b2f883"
+	},
+	"plugins":{
+		"routePlan":{
+			"version":"1.0.19",
+			"provider":"wx50b5593e81dd937a"
+		}
+	},
+	"uniIdRouter": {},
+	"easycom": {
+			"autoscan": true,
+			"custom": {
+				// uni-ui 规则如下配置
+				"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+			}
+		}
+}

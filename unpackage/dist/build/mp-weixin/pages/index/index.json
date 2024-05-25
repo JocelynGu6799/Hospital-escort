@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "你哈",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "mynavbar": "../../components/navbar/navbar"
+  }
+}

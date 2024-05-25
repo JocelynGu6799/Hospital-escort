@@ -1,0 +1,1 @@
+.container{padding:10px}.btns{margin-top:10px;display:flex;flex-direction:row}.btns button{flex:1}.btn-delete{margin-left:10px}
